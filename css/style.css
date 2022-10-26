@@ -114,16 +114,13 @@ body {
   margin-top: 190px;
 }
 
-.video-block{
+.video-block {
   position: relative;
-
 }
-.play{
-position: absolute;
-margin-left: 50%;
-margin-top: 25%;
-
-  
+.play {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 25%;
 }
 
 .offer {
@@ -131,37 +128,24 @@ margin-top: 25%;
 }
 
 .offer img {
- width: 570px;
- height: 400px;
+  width: 570px;
+  height: 400px;
 }
 
 .offer h3 {
+  padding-bottom: 30px;
   font-weight: 400;
-font-size: 24px;
-line-height: 140%;
-color: #838383;
+  font-size: 24px;
+  line-height: 140%;
+  color: #838383;
 }
 
-.offer p {
-  padding-top: 20px;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-color: #1D1D1F;
-}
-.container {
-}
-.offer__container {
-}
 .offer__top {
   display: flex;
   gap: 60px;
   align-items: center;
 }
-.offer__top-descr {
-}
-.btn {
-}
+
 .offer__btn {
   margin-top: 60px;
   color: #fff;
@@ -174,4 +158,39 @@ color: #1D1D1F;
   margin-top: 120px;
 }
 .offer__bottom-descr {
+}
+
+.offer__quoute {
+  width: 820px;
+  margin-top: 190px;
+}
+
+.offer__quoute p {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 150%;
+  color: #1d1d1f;
+}
+
+.offer__quoute p:first-child {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #838383;
+}
+
+.offer__quoute p:last-child {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6a6a6e;
+}
+
+.offer__quoute span{
+  color: #1D1D1F;
+}
+
+.slider{
+  margin-top: 190px;
 }
