@@ -125,3 +125,53 @@ margin-top: 25%;
 
   
 }
+
+.offer {
+  margin-top: 190px;
+}
+
+.offer img {
+ width: 570px;
+ height: 400px;
+}
+
+.offer h3 {
+  font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+color: #838383;
+}
+
+.offer p {
+  padding-top: 20px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #1D1D1F;
+}
+.container {
+}
+.offer__container {
+}
+.offer__top {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.offer__top-descr {
+}
+.btn {
+}
+.offer__btn {
+  margin-top: 60px;
+  color: #fff;
+  background-color: #1d1d1f;
+}
+.offer__bottom {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 120px;
+}
+.offer__bottom-descr {
+}
