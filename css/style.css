@@ -157,8 +157,6 @@ body {
   gap: 60px;
   margin-top: 120px;
 }
-.offer__bottom-descr {
-}
 
 .offer__quoute {
   width: 820px;
@@ -209,9 +207,7 @@ body {
   font-weight: 500;
   font-size: 32px;
   line-height: 130%;
-  color: #1D1D1F;
-}
-.container {
+  color: #1d1d1f;
 }
 
 .servises__container div::before {
@@ -245,4 +241,38 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 400px;
+}
+
+.footer {
+  background-color: #1d1d1f;
+  color: #fff;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+
+.footer__left {
+  width: 570px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.logo__footer {
+  margin: 0;
+  padding-bottom: 40px;
+}
+.footer h2 {
+  width: 500px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+  padding-bottom: 40px;
+}
+.social {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
