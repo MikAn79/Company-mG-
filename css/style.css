@@ -40,10 +40,7 @@ body {
   gap: 35px;
   align-items: center;
 }
-.nav__menu-items {
-}
-.nav__menu-link {
-}
+
 .header__descr {
   max-width: 936px;
   margin-top: 150px;
@@ -75,7 +72,6 @@ body {
   margin-bottom: 211px;
 }
 
-
 .about-container {
   margin-top: 190px;
   /* margin-bottom: 190px; */
@@ -85,17 +81,16 @@ body {
 }
 
 .about__dig h3 {
-font-weight: 300;
-font-size: 64px;
-line-height: 140%;
-
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 140%;
 }
 .about__dig p {
   padding-bottom: 60px;
   font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-color: #838383;
+  font-size: 16px;
+  line-height: 150%;
+  color: #838383;
 }
 
 .about__descr {
@@ -104,13 +99,29 @@ color: #838383;
 .about__descr h2 {
   padding-bottom: 60px;
   font-weight: 700;
-font-size: 44px;
-line-height: 140%;
+  font-size: 44px;
+  line-height: 140%;
 }
 
 .about__descr p {
   padding-bottom: 30px;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.video {
+  margin-top: 190px;
+}
+
+.video-block{
+  position: relative;
+
+}
+.play{
+position: absolute;
+margin-left: 50%;
+margin-top: 25%;
+
+  
 }
