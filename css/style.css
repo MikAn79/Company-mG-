@@ -187,10 +187,62 @@ body {
   color: #6a6a6e;
 }
 
-.offer__quoute span{
-  color: #1D1D1F;
+.offer__quoute span {
+  color: #1d1d1f;
 }
 
-.slider{
+.slider {
   margin-top: 190px;
+}
+
+.servises {
+  margin-top: 230px;
+}
+.servises p {
+  max-width: 570px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #838383;
+}
+.servises h3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+  color: #1D1D1F;
+}
+.container {
+}
+
+.servises__container div::before {
+  content: "";
+  position: absolute;
+  background-color: #645f5f;
+  height: 1px;
+  width: 1200px;
+  margin-top: -45px;
+}
+.branding {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 400px;
+}
+.web-apps {
+  padding-bottom: 80px;
+  display: flex;
+  gap: 400px;
+  justify-content: space-between;
+}
+.design {
+  padding-bottom: 80px;
+  display: flex;
+  gap: 400px;
+  justify-content: space-between;
+}
+.strategy {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 400px;
 }
